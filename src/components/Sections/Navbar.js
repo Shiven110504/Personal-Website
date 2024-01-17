@@ -60,7 +60,7 @@ const Navbar = () => {
   }, []);
 
   const onResumeClick = useCallback(() => {
-    window.open("https://www.linkedin.com/in/sp1105/");
+    window.open("https://shivenpatel.me/Shiven_Patel_Resume.pdf");
   }, []);
 
   return (

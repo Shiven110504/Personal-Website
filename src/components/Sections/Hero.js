@@ -106,7 +106,7 @@ const Hero = () => {
                 <img
                   className="relative w-5 h-5"
                   alt=""
-                  src="/Linkedin.svg"
+                  src="/LinkedIn.svg"
                 />
               </button>
               <button

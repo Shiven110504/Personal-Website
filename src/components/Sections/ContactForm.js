@@ -110,7 +110,7 @@ const ContactForm = () => {
               className="cursor-pointer [border:none] p-4 bg-primary-black self-stretch rounded w-14 flex flex-row items-center justify-center box-border"
               onClick={onLinkedInClick}
             >
-              <img className="relative w-5 h-5" alt="" src="/Linkedin.svg" />
+              <img className="relative w-5 h-5" alt="" src="/LinkedIn.svg" />
             </button>
             <button
               className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black"

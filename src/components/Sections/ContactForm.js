@@ -95,7 +95,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div
-            className="h-14 flex flex-row items-start justify-start gap-[24px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-bottom] opacity-[0] max-w-full"
+            className="h-14 flex flex-row items-start justify-start gap-[24px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-bottom] opacity-[0] max-w-full mq450:py-5"
             data-animate-on-scroll
           >
             <button
@@ -113,7 +113,7 @@ const ContactForm = () => {
               <img className="relative w-5 h-5" alt="" src="/LinkedIn.svg" />
             </button>
             <button
-              className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black"
+              className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black mq450:hidden"
               onClick={onGithubClick}
             >
               <img
@@ -123,7 +123,7 @@ const ContactForm = () => {
               />
             </button>
             <button
-              className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black"
+              className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black mq450:hidden"
               onClick={onTwitterClick}
             >
               <img
@@ -133,7 +133,7 @@ const ContactForm = () => {
               />
             </button>
             <button
-              className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black"
+              className="cursor-pointer p-4 bg-[transparent] rounded box-border w-[58px] h-[58px] flex flex-row items-center justify-center border-[2px] border-solid border-primary-black mq450:hidden"
               onClick={onInstagramClick}
             >
               <img

@@ -38,7 +38,7 @@ const ExperienceComponent = ({
 
   return (
     <div
-      className={`self-stretch rounded-3xs box-border flex flex-col items-start justify-start py-[30px] pr-[25px] pl-[23px] gap-[28px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-top] opacity-[0] max-w-full text-center text-5xl text-primary-white font-heading-h6-semibold border-[1px] border-solid border-zinc-500`}
+      className={`self-stretch rounded-3xs box-border flex flex-col items-start justify-start  py-[30px] pr-[25px] pl-[23px] gap-[28px] [&.animate]:animate-[1s_ease_0s_1_normal_forwards_fade-in-top] opacity-[0] max-w-full text-center text-5xl text-primary-white font-heading-h6-semibold border-[1px] border-solid border-zinc-500`}
       data-animate-on-scroll
     >
       <div className="self-stretch flex flex-row items-center justify-between gap-[20px] max-w-full lg:flex-wrap">

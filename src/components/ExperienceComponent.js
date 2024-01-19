@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 
 const ExperienceComponent = ({
-  leadSoftwareEngineerAtGoo,
-  dec2023Present,
-  ledTheDevelopmentOfANewWe,
-  collaboratedInADynamicTea,
+  Title,
+  Date,
+  Text1,
+  Text2,
 }) => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -44,16 +44,16 @@ const ExperienceComponent = ({
       <div className="self-stretch flex flex-row items-center justify-between gap-[20px] max-w-full lg:flex-wrap">
         <div className="flex flex-row items-center justify-start gap-[30px] max-w-full">
           <h3 className="m-0 relative text-inherit tracking-[-0.02em] leading-[28px] font-semibold font-inherit mq450:text-lgi mq450:leading-[22px]">
-            {leadSoftwareEngineerAtGoo}
+            {Title}
           </h3>
         </div>
         <div className="relative text-base tracking-[-0.02em] leading-[20px] font-semibold text-zinc-300 flex items-center justify-center">
-          {dec2023Present}
+          {Date}
         </div>
       </div>
       <div className="self-stretch relative text-base tracking-[0.02em] leading-[24px] text-zinc-300 text-left">
-        <p className="m-0">{ledTheDevelopmentOfANewWe}</p>
-        <p className="m-0">{collaboratedInADynamicTea}</p>
+        <p className="m-0">{Text1}</p>
+        <p className="m-0">{Text2}</p>
       </div>
     </div>
   );

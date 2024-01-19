@@ -33,7 +33,7 @@ const ContactForm = () => {
   }, []);
 
   const onEmailClick = useCallback(() => {
-    window.location.href = "mailto:shiven110504@gmail.com";
+    window.location.href = "https://zcal.co/shiven_patel/halfhour";
   }, []);
 
   const onLinkedInClick = useCallback(() => {
@@ -103,7 +103,7 @@ const ContactForm = () => {
               onClick={onEmailClick}
             >
               <div className="relative text-xl tracking-[0.02em] leading-[24px] font-semibold font-heading-h6-semibold text-primary-white text-left">
-                Get In Touch
+                Meet with Me
               </div>
             </button>
             <button

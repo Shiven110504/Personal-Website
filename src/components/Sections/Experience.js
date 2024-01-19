@@ -51,37 +51,37 @@ const Experience = () => {
         <div className="self-stretch overflow-hidden flex flex-col items-start justify-start py-10 px-6 box-border gap-[32px] max-w-full text-center text-5xl mq825:gap-[16px] mq825:pt-5 mq825:pb-5 mq450:pl-0 mq450:pr-0 mq825:box-border mq1425:pt-[26px] mq1425:pb-[26px] mq1425:box-border">
           
           <ExperienceComponent
-            leadSoftwareEngineerAtGoo="Software Engineer Intern @ UMass IT"
-            dec2023Present="Jan 2023 - Present"
-            ledTheDevelopmentOfANewWe=" Improved site reliability and retention rate by deploying a new production version of the SPIRE homepage, resulting in a 10% decrease in downtime and an increase in user engagement."
-            collaboratedInADynamicTea="Improved security by deploying multi-factor authentication on SPIRE that led to more convenient SSO for over 30,000 daily users"
+            Title="Software Engineer Intern @ UMass IT"
+            Date="Jan 2023 - Present"
+            Text1=" Improved site reliability and retention rate by deploying a new production version of the SPIRE homepage, resulting in a 10% decrease in downtime and an increase in user engagement."
+            Text2="Improved security by deploying multi-factor authentication on SPIRE that led to more convenient SSO for over 30,000 daily users"
           />
           <ExperienceComponent
-            leadSoftwareEngineerAtGoo="Frontend Software Engineer @ IIAM Health"
-            dec2023Present="Dec 2023 - Present"
-            ledTheDevelopmentOfANewWe="Led the development of a new web platform at IIAM Health, leveraging React.js, Tailwind CSS, and HTML to revolutionize medical record sharing among healthcare providers."
-            collaboratedInADynamicTea="Collaborated in a dynamic team environment to design a user-friendly interface, ensuring responsive and accessible web experiences while aligning with the startup's vision for transforming healthcare record management."
+            Title="Frontend Software Engineer @ IIAM Health"
+            Date="Dec 2023 - Present"
+            Text1="Led the development of a new web platform at IIAM Health, leveraging React.js, Tailwind CSS, and HTML to revolutionize medical record sharing among healthcare providers."
+            Text2="Collaborated in a dynamic team environment to design a user-friendly interface, ensuring responsive and accessible web experiences while aligning with the startup's vision for transforming healthcare record management."
 
           />
           <ExperienceComponent
-            leadSoftwareEngineerAtGoo="Research Assistant @ Robotic Systems Lab"
-            dec2023Present="Sep 2023 - Present"
-            ledTheDevelopmentOfANewWe="Utilized an isometric microphone array and DOA estimation algorithm to enhance auditory input for the guide dog robot project, enabling it to accurately map environmental threats in 3D space improving accuracy rate by 5.3%."
-            collaboratedInADynamicTea="Led data collection efforts for the visual data, implementing a semantic aware local path planner that improved navigation decision-making by 30%, resulting in more efficient and safer routes."
+            Title="Research Assistant @ Robotic Systems Lab"
+            Date="Sep 2023 - Present"
+            Text1="Utilized an isometric microphone array and DOA estimation algorithm to enhance auditory input for the guide dog robot project, enabling it to accurately map environmental threats in 3D space improving accuracy rate by 5.3%."
+            Text2="Led data collection efforts for the visual data, implementing a semantic aware local path planner that improved navigation decision-making by 30%, resulting in more efficient and safer routes."
 
           />
           <ExperienceComponent
-            leadSoftwareEngineerAtGoo="President @ CICSoft"
-            dec2023Present="Dec 2023 - Present"
-            ledTheDevelopmentOfANewWe=" CICSoft aims to provide a collaborative environment for students to enhance their technical skills while developing applications! We strive to reduce the gap between school and industry by enriching the students with job ready skills in CS."
-            collaboratedInADynamicTea="As the President of the club, I overlook the  a team of 6 in optimizing logistics, outreach, teaching, and development.  The club has 100+ active members marching towards a fulfilling career in CS."
+            Title="President @ CICSoft"
+            Date="Dec 2023 - Present"
+            Text1=" CICSoft aims to provide a collaborative environment for students to enhance their technical skills while developing applications! We strive to reduce the gap between school and industry by enriching the students with job ready skills in CS."
+            Text2="As the President of the club, I overlook the  a team of 6 in optimizing logistics, outreach, teaching, and development.  The club has 100+ active members marching towards a fulfilling career in CS."
 
           />
           <ExperienceComponent
-            leadSoftwareEngineerAtGoo="Undergraduate Course Assistant @ CICS"
-            dec2023Present="Feb 2023 - Present"
-            ledTheDevelopmentOfANewWe=" COMPSCI 240: Reasoning Under Uncertainty, a Probability and Statistics for Computer Science course.Coordinated with faculty and teaching assistants to streamline course operations, resulting in a 20% reduction in grading time for exams and assignments."
-            collaboratedInADynamicTea="Led interactive lab sessions and small group discussions, fostering an engaging learning environment that led to a increase in student participation and comprehension."
+            Title="Undergraduate Course Assistant @ CICS"
+            Date="Feb 2023 - Present"
+            Text1=" COMPSCI 240: Reasoning Under Uncertainty, a Probability and Statistics for Computer Science course.Coordinated with faculty and teaching assistants to streamline course operations, resulting in a 20% reduction in grading time for exams and assignments."
+            Text2="Led interactive lab sessions and small group discussions, fostering an engaging learning environment that led to a increase in student participation and comprehension."
           />
           
         </div>

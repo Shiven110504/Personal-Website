@@ -58,7 +58,7 @@ const Hero = () => {
                   data-animate-on-scroll
                 >
                   <h1 className="m-0 relative text-inherit tracking-[-0.02em] leading-[56px] font-inherit mq825:text-19xl mq825:leading-[45px] mq450:text-10xl mq450:leading-[34px]">
-                    <span>{`Hello I’am `}</span>
+                    <span>{`Hello I’m `}</span>
                     <b>Shiven Patel</b>
                   </h1>
                 </div>

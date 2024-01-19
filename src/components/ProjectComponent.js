@@ -1,12 +1,12 @@
 import { useCallback, useEffect } from "react";
 
 const ProjectComponent = ({
-  image771,
-  prop,
-  dailyDOSE,
-  dailyDOSEUnderstandsThatT,
-  developedAUserFriendlyEnd,
-  imageClick,
+  Image,
+  Number,
+  Title,
+  Text1,
+  Text2,
+  ImageLink,
 }) => {
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
@@ -39,7 +39,7 @@ const ProjectComponent = ({
   }, []);
 
   const onImageContainerClick = useCallback(() => {
-    window.open(imageClick);
+    window.open(ImageLink);
   }, []);
 
   return (
@@ -56,21 +56,21 @@ const ProjectComponent = ({
             className="w-full h-full max-w-full object-contain absolute left-[0px] top-[12px] [transform:scale(1.191)] mq1425:flex-1"
             loading="eager"
             alt=""
-            src={image771}
+            src={Image}
           />
         </div>
       </div>
       <div className="flex-1 overflow-hidden flex flex-col items-start justify-center min-w-[378px] max-w-full mq825:min-w-full">
         <div className="self-stretch flex flex-col items-start justify-start gap-[28px]">
           <div className="self-stretch relative tracking-[-0.02em] leading-[56px] font-extrabold mq825:text-19xl mq825:leading-[45px] mq450:text-10xl mq450:leading-[34px]">
-            {prop}
+            {Number}
           </div>
           <h1 className="m-0 self-stretch relative text-13xl tracking-[-0.02em] leading-[40px] font-bold font-inherit mq825:text-7xl mq825:leading-[32px] mq450:text-lgi mq450:leading-[24px]">
-            {dailyDOSE}
+            {Title}
           </h1>
           <div className="self-stretch relative text-base tracking-[0.02em] leading-[24px] text-zinc-500">
-            <p className="m-0">{dailyDOSEUnderstandsThatT}</p>
-            <p className="m-0">{developedAUserFriendlyEnd}</p>
+            <p className="m-0">{Text1}</p>
+            <p className="m-0">{Text2}</p>
           </div>
           <img
             className="relative w-5 h-5 cursor-pointer"

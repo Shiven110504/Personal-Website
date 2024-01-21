@@ -1,4 +1,5 @@
-\
+The portfolio is live and accessible at [shivenpatel.me](http://shivenpatel.me).
+
 # Personal Portfolio Website
 
 Welcome to the repository for my personal portfolio website! This site is a showcase of my journey as a computer science student at UMass Amherst, my skills, projects, and my passion for technology and innovation.

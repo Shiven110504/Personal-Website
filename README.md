@@ -1,4 +1,4 @@
-The portfolio is live and accessible at [shivenpatel.me](http://shivenpatel.me).
+## The portfolio is live and accessible at [shivenpatel.me](http://shivenpatel.me).
 
 # Personal Portfolio Website
 
@@ -22,7 +22,6 @@ The portfolio is a single-page application featuring a clean, modern design that
 
 ## Live Site
 
-The portfolio is live and accessible at [shivenpatel.me](http://shivenpatel.me).
 
 ## Repository Structure
 

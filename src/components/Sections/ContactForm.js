@@ -89,9 +89,6 @@ const ContactForm = () => {
               <div className="self-stretch relative tracking-[-0.02em] leading-[32px] font-semibold whitespace-nowrap mq450:text-3xl mq450:leading-[26px]">
                 shiven110504@gmail.com
               </div>
-              <div className="self-stretch relative tracking-[-0.02em] leading-[32px] font-semibold mq450:text-3xl mq450:leading-[26px]">
-                +1 (404) 232-0349
-              </div>
             </div>
           </div>
           <div

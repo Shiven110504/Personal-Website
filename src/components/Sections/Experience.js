@@ -51,37 +51,39 @@ const Experience = () => {
         <div className="self-stretch overflow-hidden flex flex-col items-start justify-start py-10 px-6 box-border gap-[32px] max-w-full text-center text-5xl mq825:gap-[16px] mq825:pt-5 mq825:pb-5 mq450:pl-0 mq450:pr-0 mq825:box-border mq1425:pt-[26px] mq1425:pb-[26px] mq1425:box-border">
           
           <ExperienceComponent
-            Title="Software Engineer Intern @ UMass IT"
-            Date="Jan 2023 - Present"
-            Text1=" Improved site reliability and retention rate by deploying a new production version of the SPIRE homepage, resulting in a 10% decrease in downtime and an increase in user engagement."
-            Text2="Improved security by deploying multi-factor authentication on SPIRE that led to more convenient SSO for over 30,000 daily users"
-          />
-          <ExperienceComponent
-            Title="Frontend Software Engineer @ IIAM Health"
-            Date="Dec 2023 - Present"
-            Text1="Led the development of a new web platform at IIAM Health, leveraging React.js, Tailwind CSS, and HTML to revolutionize medical record sharing among healthcare providers."
-            Text2="Collaborated in a dynamic team environment to design a user-friendly interface, ensuring responsive and accessible web experiences while aligning with the startup's vision for transforming healthcare record management."
-
+            Title="Robotics Software Engineer Intern @ MOLG.Inc"
+            Date="June 2024 – Present"
+            Text1="Designed and implemented an end-to-end custom collision detection framework for ABB IRB-1300 arm system, successfully integrating it into the v2.0 customer facing software package, by utilizing PyBullet, OpenGL3, ROS/2, and Websockets."
+            Text2="Enhanced collision detection speed to 0.134 milliseconds per position for an 18-linked robotic system by applying multithreading techniques and following a microservice architecture, thereby significantly improving the system’s performance and responsiveness."
+            Text3="Developed a sophisticated volume reservation system for multi-arm coordination using the Octree data structure, optimizing information retrieval processes and ensuring real-time coordination and operation of robotic arms in complex environments."
           />
           <ExperienceComponent
             Title="Research Assistant @ Robotic Systems Lab"
-            Date="Sep 2023 - Present"
-            Text1="Utilized an isometric microphone array and DOA estimation algorithm to enhance auditory input for the guide dog robot project, enabling it to accurately map environmental threats in 3D space improving accuracy rate by 5.3%."
-            Text2="Led data collection efforts for the visual data, implementing a semantic aware local path planner that improved navigation decision-making by 30%, resulting in more efficient and safer routes."
-
+            Date="September 2023 – Present"
+            Text1="Enhanced guide dog robot’s 3D auditory mapping by 15.3% using isometric mic array, DOA estimation algorithm, and signal processing with pyaudio, librosa, scipy, resulting in increased planning confidence against occlusions for navigating a visually impaired user."
+            Text2="Developed a convolutional recurrent neural network for sound source distance estimation to improve obstacle avoidance, leveraging sklearn, tensorflow, and keras for automated signal processing."
+            Text3="Led audio/visual data collection and integration with a semantic-aware path planner, enhancing navigation safety by 10%."
           />
           <ExperienceComponent
-            Title="President @ CICSoft"
-            Date="Dec 2023 - Present"
-            Text1=" CICSoft aims to provide a collaborative environment for students to enhance their technical skills while developing applications! We strive to reduce the gap between school and industry by enriching the students with job ready skills in CS."
-            Text2="As the President of the club, I overlook the  a team of 6 in optimizing logistics, outreach, teaching, and development.  The club has 100+ active members marching towards a fulfilling career in CS."
-
+            Title="Software Engineer Intern @ UMass Information Technology"
+            Date="January 2023 – Present"
+            Text1="Led the configuration and deployment of Grouper for Canvas admin management, integrating attestation features which resulted in a 20% reduction in unauthorized admin additions, utilizing Agile methodologies with Scrum and Jira to streamline the project."
+            Text2="Engineered a robust ETL process using Boomi to synchronize Active Directory group members with Canvas via RESTful APIs, achieving a 98% data synchronization accuracy rate and significantly enhancing data integrity and consistency across platforms."
+            Text3="Developed and implemented a subprocess for NetID collision resolution utilizing SSMS and PostgreSQL, which reduced manual account management efforts by 30% and improved efficiency through the application of Test Driven Development (TDD) practices."
           />
           <ExperienceComponent
             Title="Undergraduate Course Assistant @ CICS"
-            Date="Feb 2023 - Present"
-            Text1=" COMPSCI 240: Reasoning Under Uncertainty, a Probability and Statistics for Computer Science course.Coordinated with faculty and teaching assistants to streamline course operations, resulting in a 20% reduction in grading time for exams and assignments."
-            Text2="Led interactive lab sessions and small group discussions, fostering an engaging learning environment that led to a increase in student participation and comprehension."
+            Date="January 2023 – Present"
+            Text1="Accomplished a 10% reduction in grading time for exams by coordinating with faculty to implement efficient grading workflows."
+            Text2="Enhanced student participation by leading engaging discussion sessions, as measured by a 20% increase in student performance."
+            Text3="Developed and maintained course materials, including interactive exercises, practice exams reinforcing key concepts."
+          />
+          <ExperienceComponent
+            Title="President @ CICSoft Student Organization"
+            Date="August 2022 – Present"
+            Text1="CICSoft aims to bridge the gap between school and industry by enriching the students with skills in AI/ML, DSA, Systems etc."
+            Text2="Leading a board of 6, steering 400+ members with events focused on technical/behavioural interview prep, system design."
+            Text3="Fostered a robust tech community, cultivating a platform for networking, skill development, and career advancement for members."
           />
           
         </div>
